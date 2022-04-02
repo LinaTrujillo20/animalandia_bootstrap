@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color: #FFFFFF;
+    --purple-color: rgb(117,41,149);
+    --blue-color: #00b2b1;
+    --gray-color: #828282;
+    --ligh-color: #f3fef3;
+}
+
+h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+    color: var(--dark-color);
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #00b2b2;
+    border-color: #016e6e;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #016e6e;
+    border-color: #00b2b2;
+}
+
+.btn-outline-primary {
+    color: rgb(117,41,149);
+    border-color: rgb(117,41,149);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: rgb(117,41,149);
+    border-color: rgb(117,41,149);
+}
+
+.header-logo img{
+    max-width: 270px; 
+}
+
+#agenda{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 7px rgba(100, 98, 98, 0.459);
+    margin-top: 0.5rem;
+}
+
+.agenda-cita{
+    background-image: url("../img/fondo.jpg");
+    padding: 3rem;
+}
+
+.agenda-cita h1{
+    font-size: 1.5rem;
+    font-weight: 790;
+}
+.agenda-cita h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.agenda-promo{
+    background-color: var(--purple-color);
+    padding: 3rem; 
+}
+
+.agenda-promo h1{
+    font-size: 1.7rem;
+    font-weight: 790;
+    color: var(--white-color);
+    text-shadow: 3px 3px 3px rgb(73, 69, 69);
+}
+
+.agenda-promo img{
+    border: 7px solid var(--white-color);
+}
+
+.tseccion { 
+    text-align: center;
+    font-weight: bolder;
+    color:var(--purple-color);
+    text-shadow: 1px 1px 3px #191919;
+    justify-content: space-between;
+}
+.tservice{
+    text-align: center;
+    font-weight: bolder;
+    color:var(--purple-color);
+    text-shadow: 1px 1px 3px #191919;
+    justify-content: space-between;
+}
+
+.equipo img{
+    max-width: 200px;  
+}
+
+.servicios img{
+    max-width: 200px;    
+}
+
+.servicios h3{
+    color: var(--purple-color);
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.servicio, .equipo{
+  text-align: center;
+  padding: 2rem;
+  
+}
+
+.servicio p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.servicio, .equipo h3{
+    margin-top: 2rem;
+    color: var(--purple-color);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-group{
+    text-align: center;
+    background-image: url("../img/fondo.jpg") ;
+
+}
+
+.card{
+    border: none;
+    background-color: rgba(117, 41, 149, 0.4);
+    padding: 2rem;      
+}
+
+.card-group img{
+    max-width: 70px;
+    text-align: center;
+   
+
+}
+.card h5{
+    text-align: center;
+    color:var(--white-color);
+    text-shadow: 1px 1px 3px #191919;
+    justify-content: space-between;
+}
+
+.card p{
+    text-align: center;
+    color:var(--white-color);
+    text-shadow: 1px 1px 3px #191919;
+    justify-content: space-between;
+}
+
+.card-body p{
+    color: var(--white-color);
+}
+
+
+/*-------------------EQUIPO--------------*/
+.equipo h4{
+    color: var(--dark-color);
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: bolder 700;
+    text-shadow: 2px 1px 2px var(--gray-color);
+    justify-content: space-between;
+}
+.equipo p{
+    text-align: center;
+    justify-content: justify;
+    font-size: 15px;
+}
+/*carousel*/
+.carousel-item img{
+    max-width: 100%;
+    text-align: center;
+}
+
+/*---------------SERVICIOS-------------------*/
+.carousel-item h5,p{
+    color: var(--dark-color);
+    font-weight: bolder 700;
+    text-shadow: 2px 1px 2px var(--white-color);
+}
+.card-servi h5{
+    color:var(--purple-color);
+    text-shadow: 2px 1px 2px var(--gray-color);
+}
+.card-servi p{
+    text-align: justify;
+}
+
+.card-text{
+    text-align: center;
+  
+}
+
+
+
+
+/*--------CONTACTO--------*/
+.container{
+    display: grid;
+    background-image: url(/assets/img/fondo.jpg);
+    max-width: 100%;
+
+}
+.container input{
+    border: 3px solid var(--purple-color);
+    padding: 0.5rem;
+    outline: none;
+    margin: .40rem;
+   
+}
+.button-cont input{
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+}
+.container h2{
+    color: white;
+    text-shadow: 2px 2px 3px #4c15ce;
+    text-align: center;
+}
+
+.card-maps iframe{
+    border: 7px solid var(--purple-color);
+    
+}
+.card-body p{
+    color: rgb(137, 105, 228);
+    text-shadow: 2px 2px 3px #978eac;
+}
+
+/*--------LOGIN--------*/
+
+.login img{
+    align-items: center;
+}
+
+.form-login h1{
+    text-align: center;
+}
+
+.form-login i{
+     color: var(--purple-color);
+     padding: 0.4rem 0.5rem;
+     border-radius: 100%;
+     border: 3px solid var(--gray-color);
+}
+
+.form-login{
+    justify-content: center;
+    margin-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 1px 1px 2px var(--dark-color);
+    background-color: #82828210;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.form-label{
+    font-weight: bold;
+    color: #191919;
+}
+
+.form-input{
+    border: 3px solid var(--gray-color);
+    padding: 0.5rem;
+    outline: none;
+}
+
+.form-input:focus{
+    border: 3px solid var(--gray-color);
+
+}
+.form-input::placeholder{
+    font-size: 0.8rem;
+}
+
+.btn-azul,.btn-morado{
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-azul{
+    text-align: center;
+    background-color: var(--blue-color);
+
+}
+
+.btn-morado{
+    background-color: var(--purple-color);
+}
+
+.fomr-olvido{
+    text-align: center;
+    color: var(--blue-color);
+    font-size: 0.9rem;
+}
+
+.form-login ,a{
+    color: var(--purple-color);
+}
+
+/*-------------TIPS-----------*/
+.tips h5{
+    color: #016e6e;
+    text-shadow: 1px 1px 2px var(--purple-color);
+    text-align: center;
+    margin: 1rem;
+}
+
+.tips p{
+    color: var(--dark-color);
+    text-shadow: 1rem 1rem 1rem var(--gray-color);
+    text-align: center;  
+}
+.tips iframe{
+    border-radius: 5px;
+    text-align: right;
+}
+
